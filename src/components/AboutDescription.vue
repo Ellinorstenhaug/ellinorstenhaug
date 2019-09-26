@@ -3,7 +3,7 @@
   <v-row class="d-section" no-gutters>
     <v-col class="about__image-wrap" cols="12" xs="12" sm="12" md="6">
 
-      <img class="about__image" :src="requireImg('DSC_5728.2.jpg')" alt="">
+      <img class="about__image" :src="requireImg('ellinor.png')" alt="">
     </v-col>
     <v-col cols="12" xs="12" sm="12" md="6" class="px-12">
       <div>
