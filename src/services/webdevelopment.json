@@ -1,0 +1,151 @@
+[{
+        "id": 1,
+        "title": "SeoWidget",
+        "img": "seoSpider-large.png",
+        "smallImg": "seoWidget.png",
+        "smallImg2": "seoSpider-2.png",
+        "url": "seoWidget",
+        "href":"https://seowidget.cortinate.se/",
+        "hrefText":"seowidget.cortinate.se",
+        "introText":"A handy tool for crawling webistes",
+        "heading":"Cortinates SeoWidget",
+        "color": "blue",
+        "projectColors": ["#ad4990", "#464b68", "#373c59", "#abadb9", "#363a57"],
+        "description": "This handy little tool was made to make your life easier when analyzing a website. It doesn't matter if it's your or your clients website, just give the app a valid URL and it will magically hand you a nice presentation of what you should/can change to rank better on google.",
+        "techniques": [{
+                "title": "VueJs",
+                "icon": "icons/vue.svg"
+            },
+            {
+                "title": "Vuex",
+                "icon": "icons/vuex.svg"
+            },
+            {
+                "title": "SASS",
+                "icon": "icons/sass.svg"
+            },
+            {
+                "title": "Azure devOps",
+                "icon": "icons/azure.svg"
+            },
+            {
+                "title": "Prototyping in Adobe Illustrator",
+                "icon": "icons/illustrator.svg"
+            }
+        ]
+
+    },
+    {
+        "id": 2,
+        "title": "Vad kostar en hemsida?",
+        "img": "vadkostarenhemsida-p.png",
+        "url": "vadkostarenhemsida",
+        "smallImg": "vadkostarenhemsida.png",
+        "smallImg2": "vadkostarenhemsida-small.png",
+        "href":"https://vadkostarenhemsida.se/",
+        "hrefText":"vadkostarenhemsida.se",
+        "introText":"Handy website cost calculator",
+        "heading":"How much does a website cost to develop?",
+        "color": "pink",
+        "projectColors": ["#BABBC3", "#1F1E1F", "#AD3681", "#da9dc2", "#ecbbd8"],
+        "description": "Today every business (or really anyone) need a website. But how much will it, supposedly, cost? Well I'm glad you asked - why dont you check out Vadkostarenhemsida.se? This handy app will help you get a pretty good esimate!",
+        "techniques": [{
+                "title": "ReactJs",
+                "icon": "icons/react.svg"
+            },
+          
+            {
+                "title": "Pose Animations",
+                "icon": "icons/pose.svg"
+            },
+            {
+                "title": "SASS",
+                "icon": "icons/sass.svg"
+            },
+            {
+                "title": "Azure devOps",
+                "icon": "icons/azure.svg"
+            },
+            {
+                "title": "Prototyping in Adobe Illustrator",
+                "icon": "icons/illustrator.svg"
+            }
+        ],
+        "extras": {
+            "icons": ["webshop.svg", "graphic_design_yes.svg", "content.svg", "info.svg", "review_yes.svg"]
+        }
+    },
+    {
+        "id": 3,
+        "title": "Brid Content",
+        "img": "brid-large.png",
+        "smallImg": "brid.png",
+        "smallImg2": "brid-2.png",
+        "href":"https://bridcontent.se/",
+        "hrefText":"bridcontent.se",
+        "introText":"The brand is in the story",
+        "heading":"Transfer from Wordpress to Umbraco 8 ",
+        "url": "brid",
+        "color": "orange",
+        "projectColors": ["#191716", "#8E8E8E", "#D77C35", "#F47F36", "#FF6900"],
+        "description": "We've all been there, trying WordPress because it seems like it's a good choice. And hey, sometimes it actually is! But what if i told you, that a content management system can be better in many, many ways? Maybe we're a bit biased, but according to us - Umbraco always seems like a good choice. Open-source, user friendly and free (!) with an infinite amount of posibillities - what more can a developer/content manager ask for?",
+        "techniques": [{
+                "title": "Umbraco CMS",
+                "icon": "icons/umbraco.svg"
+            },
+            {
+                "title": "JavaScript",
+                "icon": "icons/javascript.svg"
+            },
+            {
+                "title": "SASS",
+                "icon": "icons/sass.svg"
+            },
+            {
+                "title": "Azure devOps",
+                "icon": "icons/azure.svg"
+            },
+            {
+                "title": "Adobe XD",
+                "icon": "icons/xd.svg"
+            }
+        ]
+
+    },
+    {
+        "id": 4,
+        "title": "Fakturino Backoffice",
+        "img": "fakturino-large.png",
+        "url": "fakturino",
+        "color": "teal",
+        "smallImg": "fakturino.png",
+        "smallImg2": "fakturino-2.png",
+        "href":"https://fakturino.se/",
+        "hrefText":"fakturino.se",
+        "introText":"Multilingual backoffice UI for Fakturino",
+        "heading":"Backoffice with focus on UX",
+        "projectColors": ["#F99F3A", "#7CD3F5", "#EBEBEB", "#F0628E", "#73B692"],
+        "description": "Fakturino's plan on expanding their business to both Estonia and Norway needed a whole new platform, with multilingual support. Their old (read: ancient) backoffice could or should not be used for this operation and therefore a new, fresh and user friendly system was needed. Exciting! ",
+        "techniques": [{
+                "title": "VueJs",
+                "icon": "icons/vue.svg"
+            },
+            {
+                "title": "Vuex",
+                "icon": "icons/vuex.svg"
+            },
+            {
+                "title": "SASS",
+                "icon": "icons/sass.svg"
+            },
+            {
+                "title": "Azure devOps",
+                "icon": "icons/azure.svg"
+            },
+            {
+                "title": "Prototyping in Adobe Illustrator",
+                "icon": "icons/illustrator.svg"
+            }
+        ]
+    }
+]

@@ -1,0 +1,65 @@
+[{
+        "id": 1,
+        "title": "Dragon fruit",
+        "img": "first.png",
+        "smallImg":"firstSmall.png",
+        "url": "dragonfruit",
+        "color":"pink",
+        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum a velit obcaecati hic consequuntur ipsa incidunt repellendus ex voluptas debitis! Dolor aut repellat non veniam quibusdam saepe recusandae possimus cupiditate."
+    },
+    {
+        "id": 2,
+        "title": "Blue pineapple",
+        "img": "second.png",
+        "smallImg":"secondSmall.png",
+        "url": "pineapple",
+        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum a velit obcaecati hic consequuntur ipsa incidunt repellendus ex voluptas debitis! Dolor aut repellat non veniam quibusdam saepe recusandae possimus cupiditate.",
+        "color":"pink"
+    },
+    {
+        "id": 3,
+        "title": "Wheat",
+        "img": "third.png",
+        "smallImg":"thirdSmall.png",
+        "url": "wheat",
+        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum a velit obcaecati hic consequuntur ipsa incidunt repellendus ex voluptas debitis! Dolor aut repellat non veniam quibusdam saepe recusandae possimus cupiditate.",
+        "color":"pink"
+    },
+    {
+        "id": 4,
+        "title": "Åre",
+        "img": "fourth.png",
+        "smallImg":"fourthSmall.png",
+        "url": "are",
+        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum a velit obcaecati hic consequuntur ipsa incidunt repellendus ex voluptas debitis! Dolor aut repellat non veniam quibusdam saepe recusandae possimus cupiditate.",
+        "color":"pink"
+    },
+    {
+        "id": 5,
+        "title": "Phone",
+        "img": "fifth.jpeg",
+        "smallImg":"fifth.jpeg",
+        "url": "phone",
+        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum a velit obcaecati hic consequuntur ipsa incidunt repellendus ex voluptas debitis! Dolor aut repellat non veniam quibusdam saepe recusandae possimus cupiditate.",
+        "color":"pink"
+    },
+    {
+        "id": 6,
+        "title": "skiing",
+        "img": "pineapple.jpg",
+        "smallImg":"pineapple.jpg",
+        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum a velit obcaecati hic consequuntur ipsa incidunt repellendus ex voluptas debitis! Dolor aut repellat non veniam quibusdam saepe recusandae possimus cupiditate.",
+        "url": "skiing",
+        "color":"pink"
+    },
+    {
+        "id": 7,
+        "title": "Teal",
+        "img": "seventh.png",
+        "smallImg":"seventhSmall.png",
+        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum a velit obcaecati hic consequuntur ipsa incidunt repellendus ex voluptas debitis! Dolor aut repellat non veniam quibusdam saepe recusandae possimus cupiditate.",
+        "url": "teal",
+        "color":"pink"
+    }
+
+]
