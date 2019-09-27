@@ -9,9 +9,8 @@
       <img class="capabillity-img" :src="requireImg(capabillity.icon)"/>
       <p>{{capabillity.title}}</p>
     </v-col>
-
-
   </v-row>
+
 </template>
 
 <script>
@@ -29,10 +28,10 @@
           title: "React",
           icon: "react.svg"
         },
-        {
-          title: "Redux",
-          icon: "redux.svg"
-        },
+        // {
+        //   title: "Redux",
+        //   icon: "redux.svg"
+        // },
         {
           title: "Javascript",
           icon: "javascript.svg"
@@ -73,7 +72,7 @@
     }),
     methods:{
       requireImg(img) {
-        return require('../assets/images/icons/' + img)
+        return require('../../assets/images/icons/' + img)
       },
     }
 

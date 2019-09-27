@@ -28,7 +28,7 @@
   export default {
     methods: {
       requireImg(img) {
-        return require('../assets/images/' + img)
+        return require('../../assets/images/' + img)
       },
     }
   }

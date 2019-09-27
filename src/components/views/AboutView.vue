@@ -11,11 +11,11 @@
 </template>
 
 <script>
-  import Links from '../Links';
-  import AboutDescription from '../AboutDescription';
-  import AboutCapabillities from '../AboutCapabillities'
-  import Footer from '../footer/Footer';
-  import Navigation from '../Navigation'
+  import Links from '.././_assets/_links';
+  import AboutDescription from '../_assets/_aboutDescription';
+  import AboutCapabillities from '../_assets/_aboutCapabillities'
+  import Footer from '../layouts/Footer';
+  import Navigation from '../layouts/Navigation'
   export default {
     components: {
       Links,

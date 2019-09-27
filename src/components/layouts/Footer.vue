@@ -8,8 +8,8 @@
 </template>
 
 <script>
-import ContactForm from './ContactForm' 
-import Links from '../Links'
+import ContactForm from './_contactForm' 
+import Links from '../_assets/_links'
     export default {
         components:{
             ContactForm,

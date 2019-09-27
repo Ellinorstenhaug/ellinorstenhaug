@@ -2,9 +2,6 @@
     <v-row no-gutters align="center" class="text-center">
         <div class="project-overlay_wrapper">
         <v-parallax :src="requireImg(currentProject.img)">
-            <!-- <img class="project-display" :src="requireImg(currentProject.img)" alt=""> -->
-            <!-- <v-col cols="12" xs="12" class="dark-bg project-title"> -->
-            <!-- </v-col> -->
         </v-parallax>
         <div class="project-overlay"></div>
         <div class="project-overlay_heading">

@@ -24,26 +24,17 @@
                 <img class="project_description-img" :src="requireImg(currentProject.smallImg2)" />
             </v-col>
         </v-row>
-
-
             <ProjectTechniques />
-
-        <!-- <v-row no-gutters class="project_color-wrap">
-            <v-btn class="color-display elevation-0" v-for="(col, i) in currentProject.projectColors" :key="i"
-                :color="col">{{col}}</v-btn>
-        </v-row> -->
-
-
         <Footer />
     </div>
 
 </template>
 
 <script>
-    import Footer from '../footer/Footer';
-    import WebHero from '../projects/WebHero'
-    import ProjectDescription from '../projects/ProjectDescription'
-    import ProjectTechniques from '../projects/ProjectTechniques'
+    import Footer from '../layouts/Footer';
+    import WebHero from '../layouts/webHero'
+    import ProjectDescription from '../_assets/_projectDescription'
+    import ProjectTechniques from '../_assets/_projectTechniques'
     import {
         mapState,
         mapMutations

@@ -5,7 +5,7 @@ import AboutView from './components/views/AboutView.vue'
 import PhotographyView from './components/views/PhotographyView.vue'
 import WebPortfolioView from './components/views/WebPortfolioView.vue'
 import photography from './components/views/photography.vue'
-import webProject from './components/views/webproject.vue'
+import webProject from './components/views/WebProjectView.vue'
 
 Vue.use(VueRouter);
 

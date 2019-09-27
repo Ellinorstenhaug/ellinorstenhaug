@@ -1,15 +1,13 @@
 <template>
   <v-app dark ref="test">
     <v-content>
-      <!-- <vue-page-transition name="fade-in-right"> -->
         <router-view :key="$route.path" />
-      <!-- </vue-page-transition> -->
     </v-content>
   </v-app>
 </template>
 
 <script>
-  import Footer from './components/footer/Footer'
+  import Footer from './components/layouts/Footer'
 
   export default {
     name: 'App',

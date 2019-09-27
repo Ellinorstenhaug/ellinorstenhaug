@@ -35,7 +35,7 @@
 </template>
 
 <script>
-import Navigation from '../Navigation'
+import Navigation from '../layouts/Navigation'
   import {
     mapState
   } from 'vuex'
@@ -76,9 +76,7 @@ import Navigation from '../Navigation'
 
       },
       animateOverlay() {
-        console.log("animera!");
         this.showHeading = true;
-        console.log(this.showHeading)
         this.$anime.timeline({
           targets: this.$refs.title,
           duration: 2000,
