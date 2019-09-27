@@ -7,9 +7,9 @@
     
     <div v-if="!hero" class="r-navigation" ref="test">
         <router-link :to="'/'" ref="navLinks"  class="headline nav-link px-5 teal-nav-link'" :class="`${color}--text blue-nav-link`">
-           - Home - </router-link>
+           Home</router-link>
         <router-link :to="link.url" ref="navLinks" v-for="(link, i) in navLinks" :key="i" class="headline nav-link  px-5" :class="` ${color}--text ${link.color}-nav-link  `">
-           - {{link.title}} -</router-link>
+           {{link.title}}</router-link>
     </div>
 </span>
 

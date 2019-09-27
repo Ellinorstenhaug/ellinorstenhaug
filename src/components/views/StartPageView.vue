@@ -3,7 +3,6 @@
     <Links />
     <Lines />
     <div ref="greeting" class="greeting text-center">
-      <!-- <p class="caption translucent-text my-0 mb-2 uppercase orange-text">Ellinor stenhaug</p> -->
       <h1 class="display-4 py-5 bold">Hello there,</h1>
       <p class="headline"> I'm Ellinor!</p>
       <p class="thin">I am a frontend developer with passion with passion for web development, graphic design and

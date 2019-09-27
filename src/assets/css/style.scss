@@ -18,6 +18,12 @@ $teal-translucent:rgba(56, 166, 168, 0.644);
     color: $offwhite;
 }
 
+
+.m-px-5{
+    padding-right: 20px !important;
+    padding-left:20px !important;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -628,6 +634,21 @@ body {
             }
         }
     }
+    .r-navigation {
+        position: absolute;
+        font-size: 1rem;
+        opacity: 0;
+        display: flex;
+        justify-self: center;
+        width: 100%;
+        text-align: x;
+        text-align: center;
+        justify-content: center;
+        z-index:1000;
+        a{
+            font-size:1rem !important
+        }
+    }
 
 }
 
@@ -873,6 +894,12 @@ body {
             grid-column: 1/span 2;
         }
     }
+
+    .m-px-5{
+        padding-right: unset !important;
+        padding-left:unset  !important;
+    }
+    
 }
 
 @media (min-width:600px) and (max-width:960px) {

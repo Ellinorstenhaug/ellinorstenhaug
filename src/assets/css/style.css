@@ -3,6 +3,11 @@
   color: #fafafa;
 }
 
+.m-px-5 {
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -723,6 +728,27 @@ body {
   padding: 5px;
 }
 
+.about .r-navigation {
+  position: absolute;
+  font-size: 1rem;
+  opacity: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: center;
+  width: 100%;
+  text-align: x;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 1000;
+}
+
+.about .r-navigation a {
+  font-size: 1rem !important;
+}
+
 .small-section {
   min-height: 40vh;
 }
@@ -982,6 +1008,10 @@ body {
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-column: 1/span 2;
+  }
+  .m-px-5 {
+    padding-right: unset !important;
+    padding-left: unset  !important;
   }
 }
 
