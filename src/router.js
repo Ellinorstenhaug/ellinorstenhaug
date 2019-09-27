@@ -1,10 +1,8 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import HeroView from './components/views/HeroView.vue'
+import StartPageView from './components/views/StartPageView.vue'
 import AboutView from './components/views/AboutView.vue'
-import PhotographyView from './components/views/PhotographyView.vue'
 import WebPortfolioView from './components/views/WebPortfolioView.vue'
-import photography from './components/views/photography.vue'
 import webProject from './components/views/WebProjectView.vue'
 
 Vue.use(VueRouter);
@@ -23,32 +21,20 @@ const router = new VueRouter({
         {
             path: '/',
             name: 'Start',
-            component: HeroView,
+            component: StartPageView,
         },
         {
             path: '/about',
             name: 'About',
             component: AboutView,
         },
-        {
-            path: '/photography',
-            name: 'Photography Portfolio',
-            component: PhotographyView,
-        },
+       
         {
             path: '/web',
             name: 'Web Portfolio',
             component: WebPortfolioView,
         },
-        {
-            path: '/photography/:title',
-            component: photography,
-
-            children: [{
-                path: '',
-                component: photography
-            }]
-        },
+       
         {
             path: '/web/:title',
             component: webProject,
