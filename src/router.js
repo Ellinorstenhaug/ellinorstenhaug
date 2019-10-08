@@ -19,31 +19,31 @@ const router = new VueRouter({
     routes: [
 
         {
-            path: '/',
+            path: '*',
             name: 'Start',
             component: StartPageView,
         },
-        {
-            path: '/about',
-            name: 'About',
-            component: AboutView,
-        },
+        // {
+        //     path: '/about',
+        //     name: 'About',
+        //     component: AboutView,
+        // },
        
-        {
-            path: '/web',
-            name: 'Web Portfolio',
-            component: WebPortfolioView,
-        },
+        // {
+        //     path: '/web',
+        //     name: 'Web Portfolio',
+        //     component: WebPortfolioView,
+        // },
        
-        {
-            path: '/web/:title',
-            component: webProject,
+        // {
+        //     path: '/web/:title',
+        //     component: webProject,
 
-            children: [{
-                path: '',
-                component: webProject
-            }]
-        },
+        //     children: [{
+        //         path: '',
+        //         component: webProject
+        //     }]
+        // },
        
     ]
 });

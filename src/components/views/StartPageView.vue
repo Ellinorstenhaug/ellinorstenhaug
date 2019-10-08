@@ -3,17 +3,17 @@
     <Links />
     <Lines />
     <div ref="greeting" class="greeting text-center">
-      <h1 class="display-4 py-5 bold">Hello there,</h1>
-      <p class="headline"> I'm Ellinor!</p>
+      <h1 class="display-4 py-5 bold">Coming soon!</h1>
+      <p class="headline"></p>
       <p class="thin">I am a frontend developer with passion with passion for web development, graphic design and
-        problem solving. <br> I constantly seek new opportunities to create projects with value.</p>
+        problem solving. <br> I constantly seek new opportunities to create projects with value. <br/> Check out the links at the top to find out more </p>
       <p class="thin">
       </p>
       <p class="small caption white-transparent-text">A user interface is like a joke, if you have to explain it, it's
         not that good. :)</p>
-      <div class="small-line mb-7"></div>
+      <!-- <div class="small-line mb-7"></div> -->
     </div>
-    <Navigation :hero="true" color="white" />
+    <!-- <Navigation :hero="true" color="white" /> -->
   </div>
 </template>
 
@@ -47,3 +47,4 @@
     }
   };
 </script>
+
